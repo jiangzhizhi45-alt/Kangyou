@@ -78,7 +78,7 @@
 
         async function getDailyCode() {
             try {
-                const response = await fetch('https://script.google.com/macros/s/AKfycbxW3JOaMoqf6jHuISGVY1Snp7hu0u_Pu9kdHCtqq4Mft-QjKe91ahNqphQXiG2-uAko/exec'); // 替換為新的 Google Apps Script Web 應用程式 URL
+                const response = await fetch('https://script.google.com/macros/s/AKfycbw6DtA11B_I_5J-6M0WHP0m9LGEbro49vl4wFdSgvILp9DaUyfeLQNS7741qsUNdTpY/exec'); // 替換為新的 Google Apps Script Web 應用程式 URL
                 const data = await response.json();
                 return data.code;
             } catch (error) {
